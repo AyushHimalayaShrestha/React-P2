@@ -3,6 +3,8 @@ import styles from './Contact.module.css';
 import Button from '../Button/Button';
 import { MdMessage } from 'react-icons/md';
 import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 const ContactForm = () => {
   return (
     <section className={styles.container}>
@@ -11,6 +13,10 @@ const ContactForm = () => {
           <Button text='VIA SUPPORT CHAT' icon={<MdMessage fontSize='24px'/>} />
           <Button text='VIA Call' icon={<FaPhoneAlt fontSize='24px'/>} />
           </div>
+          <Button 
+          isOutline={true}
+          text='VIA EMAIL FORM' icon={<MdEmail fontSize='24px'/>} />
+
           
 
         </div>
