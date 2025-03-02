@@ -28,7 +28,7 @@ const ContactForm = () => {
             </div>
             <div className={styles.form_control}>
             <label htmlFor="Text">Text</label>
-            <textarea  name='Text'/>
+            <textarea  name='Text' rows='8'/>
             </div>
             <div style={{
               display:'flex',
@@ -42,7 +42,9 @@ const ContactForm = () => {
 
         </div>
 
-        <div className={styles.contact_image}></div>
+        <div className={styles.contact_image}>
+          <img src="/images/Frame 11.png" alt="contact" />
+        </div>
     </section>
   )
 }

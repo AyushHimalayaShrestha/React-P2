@@ -4,6 +4,9 @@ min-width: 220px;
 font-size: 16px;
 justify-content: center;
 cursor: pointer;
+padding: 18px 10px;
+background-color: black;
+color: white;
 }
 .outline_btn{
     padding: 18px 10px;
