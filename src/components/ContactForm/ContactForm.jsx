@@ -22,6 +22,20 @@ const ContactForm = () => {
             <label htmlFor="name">Name</label>
             <input type="text" name='name'/>
             </div>
+            <div className={styles.form_control}>
+            <label htmlFor="email">Email</label>
+            <input type="email" name='email'/>
+            </div>
+            <div className={styles.form_control}>
+            <label htmlFor="Text">Text</label>
+            <textarea  name='Text'/>
+            </div>
+            <div style={{
+              display:'flex',
+              justifyContent:'end'
+            }}>
+            <button text='Submit'/>
+            </div>  
           </form>
 
           
