@@ -7,16 +7,15 @@ import { MdEmail } from "react-icons/md";
 
 const ContactForm = () => {
 
-  const onViaCallSubmit =()=>{
-    console.log('Call')
-  }
+  
+  
   return (
     <section className={styles.container}>
         <div className={styles.contact_form}>
           <div className={styles.top_btn}> 
           <Button text='VIA SUPPORT CHAT' icon={<MdMessage fontSize='24px'/>} />
           <Button
-          onClick={onViaCallSubmit}
+         
           text='VIA Call' icon={<FaPhoneAlt fontSize='24px'/>} />
           </div>
           <Button 
