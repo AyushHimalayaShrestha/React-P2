@@ -7,7 +7,9 @@ import { MdEmail } from "react-icons/md";
 
 const ContactForm = () => {
  const onSubmit =()=>{
+  event.preventDefault();
   console.log(event);
+  
  };
   
   
@@ -41,7 +43,7 @@ const ContactForm = () => {
               display:'flex',
               justifyContent:'end'
             }}>
-            <button text='Submit'/>
+            <Button text='Submit'/>
             </div>  
           </form>
 
