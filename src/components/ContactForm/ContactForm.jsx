@@ -6,7 +6,9 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const ContactForm = () => {
-
+ const onSubmit =()=>{
+  console.log(event);
+ };
   
   
   return (
@@ -22,7 +24,7 @@ const ContactForm = () => {
           isOutline={true}
           text='VIA EMAIL FORM' icon={<MdEmail fontSize='24px'/>} />
 
-          <form>
+          <form onSubmit={onSubmit}>
             <div className={styles.form_control}>
             <label htmlFor="name">Name</label>
             <input type="text" name='name'/>
