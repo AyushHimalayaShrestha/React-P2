@@ -8,9 +8,9 @@ import { MdEmail } from "react-icons/md";
 const ContactForm = () => {
  const onSubmit =()=>{
   event.preventDefault();
-  console.log('name',event.target[0]);
-  console.log('email',event.target[1]);
-  console.log('text',event.target[2]);
+  console.log('name',event.target[0].value);
+  console.log('email',event.target[1].value);
+  console.log('text',event.target[2].value);
   
  };
   
