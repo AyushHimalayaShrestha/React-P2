@@ -38,6 +38,10 @@ const ContactForm = () => {
             <input type="email" name='email'/>
             </div>
             <div className={styles.form_control}>
+              <label htmlFor='password'>Password</label>
+              <input type="password" />
+            </div>
+            <div className={styles.form_control}>
             <label htmlFor="Text">Text</label>
             <textarea  name='Text' rows='8'/>
             </div>
